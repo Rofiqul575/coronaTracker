@@ -60,22 +60,22 @@ class Req {
 
                     <h4 class="text-center text-primary mb-4">Last Updated: ${statusData.last_update}</h4>
                     <div class="col-3">
-                        <div class="circle-wrapper bg-warning col-lg-4 d-flex justify-content-center align-items-center">
+                        <div class="circle-wrapper bg-warning d-flex justify-content-center align-items-center">
                             Country: ${statusData.country}
                         </div>
                     </div>
                     <div class="col-3">
-                        <div class="circle-wrapper bg-primary col-lg-4 d-flex justify-content-center align-items-center">
+                        <div class="circle-wrapper bg-primary d-flex justify-content-center align-items-center">
                             Cases: ${statusData.cases}
                         </div>
                     </div>
                     <div class="col-3">
-                        <div class="circle-wrapper bg-danger col-lg-4 d-flex justify-content-center align-items-center">
+                        <div class="circle-wrapper bg-danger d-flex justify-content-center align-items-center">
                             Death: ${statusData.deaths}
                         </div>
                     </div>
                     <div class="col-3">
-                        <div class="circle-wrapper bg-success col-lg-4 d-flex justify-content-center align-items-center">
+                        <div class="circle-wrapper bg-success d-flex justify-content-center align-items-center">
                             Recovered: ${statusData.recovered}
                         </div>
                     </div>
@@ -133,24 +133,24 @@ class Req {
                         </div>
                     </div>
 
-                    <h4 class="text-center text-primary col-lg-4 mb-4">Last Updated: ${countryDataArr.last_update}(Total Tally)</h4>
+                    <h4 class="text-center text-primary  mb-4">Last Updated: ${countryDataArr.last_update}(Total Tally)</h4>
                     <div class="col-3">
                         <div class="circle-wrapper bg-warning d-flex justify-content-center align-items-center">
                             Country: ${countryDataArr.country}
                         </div>
                     </div>
                     <div class="col-3">
-                        <div class="circle-wrapper col-lg-4 bg-primary d-flex justify-content-center align-items-center">
+                        <div class="circle-wrapper col-lg-4col-md-6 bg-primary d-flex justify-content-center align-items-center">
                             Cases: ${countryDataArr.cases}
                         </div>
                     </div>
                     <div class="col-3">
-                        <div class="circle-wrapper col-lg-4 bg-danger d-flex justify-content-center align-items-center">
+                        <div class="circle-wrapper bg-danger d-flex justify-content-center align-items-center">
                             Death: ${countryDataArr.deaths}
                         </div>
                     </div>
                     <div class="col-3">
-                        <div class="circle-wrapper col-lg-4 bg-success d-flex justify-content-center align-items-center">
+                        <div class="circle-wrapper bg-success d-flex justify-content-center align-items-center">
                             Recovered: ${countryDataArr.recovered}
                         </div>
                     </div>
