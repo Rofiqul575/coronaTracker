@@ -94,6 +94,24 @@
             height: 150px;
             text-align: center;
         }
+        .fa {
+            padding: 20px;
+            font-size: 15px;
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+            text-align: center;
+            text-decoration: none;
+            position: relative;
+        }
+         ::before {
+            position: absolute;
+            right: 13px;
+            bottom: 10px;
+        }
+        .w-25 {
+            width: 50%!important;
+        }
     }
     
     @media(max-width: 768px) {
@@ -116,6 +134,9 @@
             height: 200px;
             text-align: center;
         }
+        .w-25 {
+            width: 100%!important;
+        }
     }
     
     @media(max-width: 425px) {
@@ -131,6 +152,9 @@
         .col-3 {
             width: 50%;
             margin-bottom: 10px;
+        }
+        .connect h3 {
+            font-size: 20px;
         }
     }
     
